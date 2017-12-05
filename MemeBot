@@ -96,17 +96,17 @@ fun main(args: Array<String>) {
 
 
 
-//code start
-fun main(args: Array<String>) {
-  val control = 10
-  if control = 10 {
-    printIn("Bot now active! ")
-    printIn("Please set a command prefix! ")
-    val prefix = readLine()!!
-    printIn("Prefix set to $prefix ")
-    printIn("$prefix commands to view list of bot commands.")
-    control = 0 
-    }
+      //code start
+      fun main(args: Array<String>) {
+       val control = 10
+       if control = 10 {
+         printIn("Bot now active! ")
+         printIn("Please set a command prefix! ")
+          val prefix = readLine()!!
+          printIn("Prefix set to $prefix ")
+          printIn("$prefix commands to view list of bot commands.")
+          control = 0 
+          }
     
 val stringInput = readLine()!!
     
@@ -158,22 +158,33 @@ val stringInput = readLine()!!
     
   if $stringInput = $prefix memecat {
     printIn("Meme catagories: ")
-    printIn("$prefix catemo ")
-    printIn("$prefix catcringe ")
-    printIn("$prefix catcat ")
-    printIn("$prefix catfamilyguy ")
-    printIn("$prefix catspongebob ")
-    printIn("$prefix catkoolaid ")
-    printIn("$prefix cattard ")
-    printIn("$prefix catwhatif ")
+    printIn("$prefix cemo ")
+    printIn("$prefix ccringe ")
+    printIn("$prefix ccat ")
+    printIn("$prefix cfamilyguy ")
+    printIn("$prefix cspongebob ")
+    printIn("$prefix ckoolaid ")
+    printIn("$prefix ctard ")
+    printIn("$prefix cwhatif ")
 }
     
     
-    
+  if $stringInput = $prefix meme {
     
     
 }
+
+  if $stringInput = $prefix memecat {
     
+    
+}
+
+
+
+
+
+
+
     
 }  //fun main
   
