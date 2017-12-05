@@ -1,0 +1,194 @@
+import java.util.*
+
+
+
+/*NOTES
+  use "val" (or "var") to declare a variable.
+  get function - returns character at the specified index. used for strings.   fun get(index: int) replace int with the item #
+  s1.get(2) is the same as s1[2] which is used to pull a string from the array
+  fun readLine ("some random ass words"):
+
+*/
+
+/*sting template
+
+  fun main(args: Array<String>) {
+      var a = 1
+      // simple name in template:
+      val s1 = "a is $a" 
+
+      a = 2
+      // arbitrary expression in template:
+      val s2 = "${s1.replace("is", "was")}, but now is $a"
+      println(s2)
+  } 
+  
+input
+  val myInt = 5;
+    val myString = "myInt = $myInt"    makes it say "myint = (value of myint)
+
+    println(myString)
+  output
+    myInt = 5
+*/
+    //println(String.trimMargin())  this will trim the extra crap
+/*
+
+
+fun main(args: Array<String>) {
+    val memeList1: string
+    val memeList1 = "memeList1 active!" //first thing said
+
+    for (item in myString) {
+        println(item)
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//code start
+fun main(args: Array<String>) {
+  val control = 10
+  if control = 10 {
+    printIn("Bot now active! ")
+    printIn("Please set a command prefix! ")
+    val prefix = readLine()!!
+    printIn("Prefix set to $prefix ")
+    printIn("$prefix commands to view list of bot commands.")
+    control = 0 
+    }
+    
+val stringInput = readLine()!!
+    
+  if $stringInput = $prefix commands {
+    printIn("$prefix commands : list of basic commands")
+    printIn("$prefix meme : posts a meme")
+    printIn("$prefix memelist : meme selection list")
+    printIn("$prefix memecat : meme catagories list")
+/*    printIn("$prefix ")
+    printIn("$prefix ")
+    printIn("$prefix ")
+    printIn("$prefix ")
+    printIn("$prefix ")
+    printIn("$prefix ")
+    printIn("$prefix ")
+    printIn("$prefix ")
+    printIn("$prefix ")
+*/
+}
+
+  if $stringInput = $prefix memelist { //meme names
+    printIn("$prefix saltintensifies ")
+    printIn("$prefix shade ")
+    printIn("$prefix thinking ")
+    printIn("$prefix rollsafe ")
+    printIn("$prefix consider ")
+    printIn("$prefix catintensifies ")
+    printIn("$prefix triggeredcat ")
+    printIn("$prefix triggered ")
+    printIn("$prefix outrage ")
+    printIn("$prefix lenny ")
+    printIn("$prefix whowouldathought ")
+    printIn("$prefix crying ")
+    printIn("$prefix beetlejuice ")
+    printIn("$prefix scissorhands ")
+    printIn("$prefix noose ")
+    printIn("$prefix hangyourself ")
+    printIn("$prefix koolaid ")
+    printIn("$prefix computerfire ")
+    printIn("$prefix razor ")
+    printIn("$prefix yell ")
+    printIn("$prefix pinhead ")
+    printIn("$prefix annoyed ")
+    printIn("$prefix troll ")
+    printIn("$prefix tard ")
+    printIn("$prefix reposted ")
+    printIn("$prefix christianserver ")
+}    
+    
+  if $stringInput = $prefix memecat {
+    printIn("Meme catagories: ")
+    printIn("$prefix catemo ")
+    printIn("$prefix catcringe ")
+    printIn("$prefix catcat ")
+    printIn("$prefix catfamilyguy ")
+    printIn("$prefix catspongebob ")
+    printIn("$prefix catkoolaid ")
+    printIn("$prefix cattard ")
+    printIn("$prefix catwhatif ")
+}
+    
+    
+    
+    
+    
+}
+    
+    
+}  //fun main
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
