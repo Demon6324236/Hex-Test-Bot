@@ -1,0 +1,110 @@
+
+/*
+namespace MemeBot
+{
+    class MyBot
+    {
+        DiscordClient discord;
+        public MyBot()
+        {
+            discord = new DiscordClient (x =>
+                                         {
+                x.LogLevel = LogSeverity.Info;
+                x.LogHandler = Log;
+            });
+            discord.ExecuteAndWait (async () =>
+            {
+                await discord.Connect("FbWg2EuAlSRoLB5s3TNI9IW4PtfECRi3"); //bot secret code
+            });
+        }
+    }
+}
+
+
+    
+var Discord = require('discord.io');
+var logger = require('winston');
+var auth = require('./auth.json');
+
+logger.remove(logger.transports.Console);
+logger.add(logger.transports.Console, {
+    colorize: true
+});
+
+logger.level = 'debug';
+var bot = new Discord.Client({
+   token: auth.token,
+   autorun: true
+});
+
+bot.on('ready', function (evt) {
+    logger.info('Connected');
+    logger.info('Logged in as: ');
+    logger.info(bot.username + ' - (' + bot.id + ')');
+});
+
+bot.on('message', function (user, userID, channelID, message, evt) {
+  
+    if (message.substring(0, 1) == '!') {
+        var args = message.substring(1).split(' ');
+        var cmd = args[0];
+       
+        args = args.splice(1);
+        switch(cmd) {
+            // !ping
+            case 'ping':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Pong!'
+                });
+            break;
+         }
+     }
+});
+
+*/
+/*NOTES
+  use "val" (or "var") to declare a variable.
+  get function - returns character at the specified index. used for strings.   fun get(index: int) replace int with the item #
+  s1.get(2) is the same as s1[2] which is used to pull a string from the array
+  fun readLine ("some random ass words"):
+
+*/
+
+/*string template
+
+  fun main(args: Array<String>) {
+      var a = 1
+      // simple name in template:
+      val s1 = "a is $a" 
+
+      a = 2
+      // arbitrary expression in template:
+      val s2 = "${s1.replace("is", "was")}, but now is $a"
+      println(s2)
+  } 
+  
+input
+  val myInt = 5;
+    val myString = "myInt = $myInt"    makes it say "myint = (value of myint)
+
+    println(myString)
+  output
+    myInt = 5
+*/
+    //println(String.trimMargin())  this will trim the extra crap
+/*
+
+
+fun main(args: Array<String>) {
+    val memeList1: string
+    val memeList1 = "memeList1 active!" //first thing said
+
+    for (item in myString) {
+        println(item)
+    }
+}
+*/
+
+
+
