@@ -1,5 +1,35 @@
 import java.util.*
+    
 npm install discord.io winston --save //?
+using Discord;
+using Discord.Commands;
+using System;
+using System.Collections.Generic;
+using System.Ling;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MemeBot
+{
+    class MyBot
+    {
+        DiscordClient discord;
+        public MyBot()
+        {
+            discord = new DiscordClient (x =>
+                                         {
+                x.LogLevel = LogSeverity.Info;
+                x.LogHandler = Log;
+            });
+            discord.ExecuteAndWait (async () =>
+            {
+                await discord.Connect("FbWg2EuAlSRoLB5s3TNI9IW4PtfECRi3"); //bot secret code
+            });
+        }
+    }
+}
+
+
     
 var Discord = require('discord.io');
 var logger = require('winston');
