@@ -1,5 +1,6 @@
 import java.util.*
-
+npm install discord.io winston --save //?
+    
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
