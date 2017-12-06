@@ -9,6 +9,8 @@ using System.Ling;
 using System.Text;
 using System.Threading.Tasks;
 
+client.login(process.env.BOT_TOKEN);
+
     import discord
     import asyncio
 
