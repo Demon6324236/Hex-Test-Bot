@@ -17,14 +17,14 @@ using System.Threading.Tasks;
 
     @client.event
     async def on_ready():
-        print('Logged in as')
+        print('Logged in as: ')
         print(client.user.name)
         print(client.user.id)
-        print('------')
+        print('~~~')
 
     @client.event
     async def on_message(message):
-        if message.content == "Hello":
+        if message.content == "Good day":
             await client.send_message(message.channel, "World")
 
     client.run(<FbWg2EuAlSRoLB5s3TNI9IW4PtfECRi3>)
@@ -188,24 +188,61 @@ fun main(args: Array<String>) {
 
 
 
-
+bot.on('message', function (user, userID, channelID, message,) {
+   
+    if (message.substring(0, 1) == '+') {
+        var args = message.substring(1).split(' ');
+        var cmd = args[0];
+       
+        args = args.splice(1);
+        switch(cmd) {
+            
+            case 'ping': //+ping
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Pong!'
+                });
+            break;
+        }   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }            
+                
       //code start
       fun main(args: Array<String>) {
        val control = 10
        if control = 10 {
          printIn("Bot now active! ")
          printIn("Please set a command prefix! ")
-          val prefix = readLine()!!
-          printIn("Prefix set to $prefix ")
-          printIn("$prefix commands to view list of bot commands.")
+           if (message.substring(0, 1) == '+') {
+          .substring = readLine()!!
+          val substr = readline()!!
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Substring set to '$substr''
+                 )}
           control = 0 
-          }
+             }
+   }
     
 val stringInput = readLine()!!
     
-  if $stringInput = $prefix commands {
-    printIn("$prefix commands : list of basic commands")
-    printIn("$prefix meme : posts a meme")
+  if $stringInput = .substring(commands) {
+    printIn("'$substring' commands : list of basic commands ")
+    printIn(".substring.meme : posts a meme")
     printIn("$prefix memelist : meme selection list")
     printIn("$prefix memecat : meme catagories list")
 /*    printIn("$prefix ")
