@@ -1,8 +1,8 @@
 Test 1
-set the command to +++
-set the command to . 
-!ping
+//set the command to +++
+//set the command to . 
+!ping // this will test "message to channel"
 !pingping
-+memecat
++memecat // This will test printIn
 +meme
 +commands
