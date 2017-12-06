@@ -9,10 +9,10 @@ using System.Ling;
 using System.Text;
 using System.Threading.Tasks;
 
-
     import discord
     import asyncio
 
+    
     client = discord.Client()
 
     @client.event //login info
@@ -58,15 +58,20 @@ bot.on('message', function (user, userID, channelID, message,) { //pinger
                 
         
       fun main(args: Array<String>) { //main function
-       val control = 10
-          
-       if control == 10 {
-         printIn("`Bot now active!` ")
+        printIn("`Bot now active!` ")
+        val control = 10
+       
+          if $stringInput == .substring(reset){
+              printIn("`Bot reset!`")
+              control = 10
+          }
+              
+       if (control == 10){
            
          printIn("`Please set a command prefix up to 2 characters! Prefix is currently set to" substr"`")
            if (message.substring(0, 1) == '+') {
            val substr = readline()!!
-           if length(substr >2){
+           if (length(substr >2)){
                printIn("`Command prefix is too long! Command prefix can be up to 2 characters.`")
            }
            else {
@@ -80,17 +85,43 @@ bot.on('message', function (user, userID, channelID, message,) { //pinger
                  )}
           control = 0 
              }
-   }
-    
+         }
+  //meme list 
+         if ($stringInput ==substring.saltintensifies){                                             
+                    bot.sendMessage({
+                    to: channelID,
+                    message: 'https://tenor.com/view/salt-intensifies-gif-5477150'
+                            )}              
+                    }                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
 val stringInput = readLine()!!
     
-  if $stringInput == .substring(commands) {
+  if $stringInput == .substring(commands){
     printIn("`"$substr"commands : list of basic commands `")
-    printIn("`"$substr"meme : posts a meme`")
+    printIn("`"$substr"reset : resets the bot`")
+    printIn("`"$substr"meme : posts a random meme`")
     printIn("`"$substr"memelist : meme selection list`")
     printIn("`"$substr"memecat : meme catagories list`")
-
-}
+    printIn("`"$substr"info : gives general info about bot`")
+    }
+  if $stringInput == .substring(info){
+  }
+      
+      
+      
 
   if $stringInput == substring.memelist { //meme list
       printIn("`"$substr"memename `")
@@ -118,7 +149,7 @@ val stringInput = readLine()!!
     
     
   if $stringInput == substring.meme {
-      printIn("`"  `") //add a random number generator and a list of imgur links to pull from for the random memes
+      printIn("`" "no memes added" `") //add a random number generator and a list of imgur links to pull from for the random memes
     
 }
 
