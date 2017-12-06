@@ -10,7 +10,7 @@ import java.util.*
 
 */
 
-/*sting template
+/*string template
 
   fun main(args: Array<String>) {
       var a = 1

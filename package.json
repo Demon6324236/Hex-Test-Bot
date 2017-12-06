@@ -1,0 +1,8 @@
+{
+  "name": "meme-bot",
+  "version": "1.0.0",
+  "description": "Bot of many memes",
+  "main": "bot.js",
+  "author": "Hexamous#4955",
+  "dependencies": {}
+}
