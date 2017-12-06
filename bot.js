@@ -227,7 +227,7 @@ bot.on('message', function (user, userID, channelID, message,) {
        if control = 10 {
          printIn("Bot now active! ")
          printIn("Please set a command prefix! ")
-           if (message.substring(0, 1) == '+') {
+  //         if (message.substring(0, 1) == '+') {
           .substring = readLine()!!
           val substr = readline()!!
                 bot.sendMessage({
@@ -235,7 +235,7 @@ bot.on('message', function (user, userID, channelID, message,) {
                     message: 'Substring set to '$substr''
                  )}
           control = 0 
-             }
+  //           }
    }
     
 val stringInput = readLine()!!
