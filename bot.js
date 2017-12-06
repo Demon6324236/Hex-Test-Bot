@@ -9,6 +9,29 @@ using System.Ling;
 using System.Text;
 using System.Threading.Tasks;
 
+
+    import discord
+    import asyncio
+
+    client = discord.Client()
+
+    @client.event
+    async def on_ready():
+        print('Logged in as')
+        print(client.user.name)
+        print(client.user.id)
+        print('------')
+
+    @client.event
+    async def on_message(message):
+        if message.content == "Hello":
+            await client.send_message(message.channel, "World")
+
+    client.run(<FbWg2EuAlSRoLB5s3TNI9IW4PtfECRi3>)
+
+
+
+/*
 namespace MemeBot
 {
     class MyBot
@@ -71,7 +94,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
      }
 });
 
-
+*/
 /*NOTES
   use "val" (or "var") to declare a variable.
   get function - returns character at the specified index. used for strings.   fun get(index: int) replace int with the item #
